@@ -1,0 +1,26 @@
+.list {
+  overflow-y: scroll;
+  height: 315px;
+}
+.suggest-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #eee;
+  margin-bottom: 0.5rem;
+  padding: 5px;
+}
+.suggest-card .img {
+  width: 80px;
+  height: 80px;
+}
+.suggest-card .user {
+  color: brown;
+  font-weight: 500;
+}
+.suggest-card .desc {
+  font-weight: 300;
+}
+.comments p {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
